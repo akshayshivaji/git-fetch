@@ -20,7 +20,7 @@ cy.get('@productLocator').find('.product').eq(2).contains('ADD TO CART').click()
 {
     console.log('sf')
 })
-12345678997
+1234567899745678
 cy.get('@productLocator').find('.product').each(($el, index, $list) => {
 
 const textVeg=$el.find('h4.product-name').text()
